@@ -1,0 +1,17 @@
+# Directory containing data
+data_dir: /home/arjun/MyWorkSpace/recurrent-entity-networks/entity_networks/data/records/
+# Unique id identifying dataset
+dataset_id: ~
+
+seed: ~  # Random seed
+
+batch_size: 32  # Number of batches simultaneously used to update the gradient
+num_blocks: 20  # Number of memory blocks
+embedding_size: 100  # The dimension of the vector used to embed the input words
+clip_gradients: 40.0  # The maximum magnitude of gradient norm
+
+num_epochs: 200    # Maximum number of epochs on which to train
+lr_min: 2.0e-4       # Minimum learning rate
+lr_max: 1.0e-2       # Maximum learning rate
+lr_step_size: 10   # Learning rate step size (in epochs)
+grad_noise: 0.005  # Gradient noise scale

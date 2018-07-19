@@ -1,2 +1,4 @@
-tensorflow==1.1.0
+git+https://github.com/IGITUGraz/SimManager.git@v0.8.0#egg=simmanager-0.8.0
+pyyaml
+tensorflow==1.5.0
 tqdm==4.11.2
